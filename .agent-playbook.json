@@ -1,0 +1,25 @@
+{
+  "version": "0.14.1",
+  "project": {
+    "name": "control-room",
+    "summary": "A plain dashboard of graphs, numbers and statistics for all of Anthony's projects and repositories, with pages to manage their pull requests and issues."
+  },
+  "commands": {
+    "install": "npm ci",
+    "build": "npm run build",
+    "test": "npm test",
+    "lint": "none yet"
+  },
+  "repo": {
+    "defaultBranch": "main"
+  },
+  "autonomy": "merge",
+  "tools": [
+    "codex",
+    "copilot"
+  ],
+  "packs": [
+    "node-ts",
+    "angular"
+  ]
+}

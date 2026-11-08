@@ -1,0 +1,7 @@
+# Opt-in by name only: Codex never starts an architecture review on its own.
+policy:
+  allow_implicit_invocation: false
+interface:
+  display_name: "Improve Codebase Architecture"
+  short_description: "Find shallow modules and propose a refactor request"
+  default_prompt: "Use $improve-codebase-architecture to review this codebase for shallow modules."

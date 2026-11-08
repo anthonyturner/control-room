@@ -1,0 +1,7 @@
+# Opt-in by name only: Codex never starts a wayfinding session on its own.
+policy:
+  allow_implicit_invocation: false
+interface:
+  display_name: "Wayfinder"
+  short_description: "Map a large effort as decision tickets"
+  default_prompt: "Use $wayfinder to map this effort as decision tickets."

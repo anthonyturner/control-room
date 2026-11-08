@@ -1,0 +1,30 @@
+Closes #
+
+<!-- Keep it short: about 200 words, brief bullets. The diff holds the rest. -->
+
+## Summary
+
+One or two sentences: what changed and why.
+
+## Diagram
+
+<!-- The change's Mermaid block, reused from the issue (docs/diagrams.md). Delete this section for an XS change. -->
+
+## Changes
+
+- [path/to/file:12-18](path/to/file#L12-L18) — a few words on what changed.
+
+## SOLID
+
+- One line per principle applied or deliberately skipped, and why.
+
+## Verification
+
+- `npm run build`, `none yet`, `npm test`, with pass counts.
+- Proof: `<test name>` failed without the change (`<failing assertion>`) and passes with it; or "exception: <reason>" (`docs/testing.md`).
+- Changelog: entry added under `## [Unreleased]`, or not user-visible.
+
+## Not done
+
+- Manual testing still needed, risks, follow-ups, and any escalation signals
+  (see `docs/agent-workflows/pipeline.md`). "None" is fine.

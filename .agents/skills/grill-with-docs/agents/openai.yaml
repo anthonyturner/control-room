@@ -1,0 +1,7 @@
+# Opt-in by name only: Codex never starts a grilling session on its own.
+policy:
+  allow_implicit_invocation: false
+interface:
+  display_name: "Grill With Docs"
+  short_description: "Stress-test an idea in rounds and keep the project's glossary"
+  default_prompt: "Use $grill-with-docs to grill me on this and record the terms we settle."
